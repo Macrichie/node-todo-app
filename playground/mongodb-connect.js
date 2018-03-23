@@ -19,9 +19,8 @@ MongoClient.connect('mongodb://localhost:27017/Todo-App', (err, client) => {
     //     console.log(JSON.stringify(result.ops, undefined, 2))
     // });
     
-    // client.close();
     db.collection('Users').insert({
-        name: 'Ola Makanjuola',
+        name: 'Olakunle Makanjuola',
         age: 45,
         location: 'Lisbon'
     }, (err, result) => {
